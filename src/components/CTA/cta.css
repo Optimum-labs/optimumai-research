@@ -1,4 +1,4 @@
-.gpt3__cta  {
+.optimumai__cta  {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,7 @@
   background: var(--gradient-bar);
 }
 
-.gpt3__cta-content {
+.optimumai__cta-content {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 12px;
@@ -17,7 +17,7 @@
   color: #0E0E0E;
 }
 
-.gpt3__cta-content h3 {
+.optimumai__cta-content h3 {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 24px;
@@ -25,14 +25,14 @@
   color: #0E0E0E;
 }
 
-.gpt3__cta-btn {
+.optimumai__cta-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 2rem;
 }
 
-.gpt3__cta-btn button {
+.optimumai__cta-btn button {
   background: #000000;
   color: #FFFFFF;
   border-radius: 40px;
@@ -49,26 +49,26 @@
 }
 
 @media screen and (max-width: 650px) {
-  .gpt3__cta {
+  .optimumai__cta {
     flex-direction: column;
   }
 
-  .gpt3__cta-btn {
+  .optimumai__cta-btn {
     margin: 2rem 0 0;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .gpt3__cta {
+  .optimumai__cta {
     margin: 4rem 2rem;
   }
 
-  .gpt3__cta-btn h3 {
+  .optimumai__cta-btn h3 {
     font-size: 18px;
     line-height: 32px;
   }
 
-  .gpt3__cta-btn button {
+  .optimumai__cta-btn button {
     font-size: 14px;
     line-height: 28px;
   }

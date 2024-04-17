@@ -4,8 +4,8 @@ import ai from '../../assets/ai.png';
 
 const Header = () => {
   return (
-    <div className="gpt3__header section__padding" id="home">
-      <div className="gpt3__header-content">
+    <div className="optimumai__header section__padding" id="home">
+      <div className="optimumai__header-content">
         <h1 className="gradient__text">
           Let's make your life easier with Optimum AI
         </h1>
@@ -14,17 +14,17 @@ const Header = () => {
           It can help you with soft skills assesment, job interview preparation, mental health, financial planning, and much more.
         </p>
 
-        <div className="gpt3__header-content__input">
+        <div className="optimumai__header-content__input">
           <input type="email" placeholder="Your Email Address"/>
           <button type="button">Get Started</button>
         </div>
 
-        <div className="gpt3__header-content__people">
+        <div className="optimumai__header-content__people">
           <img src={people} alt="people"/>
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
       </div>
-      <div className="gpt3__header-image">
+      <div className="optimumai__header-image">
         <img src={ai} alt="ai" />
       </div>
     </div>
