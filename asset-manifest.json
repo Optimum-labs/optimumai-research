@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/optimumai-research/static/css/main.57bef6f1.css",
+    "main.js": "/optimumai-research/static/js/main.c5504dc8.js",
+    "static/media/blog01.png": "/optimumai-research/static/media/blog01.cefc0932eae0d33a0342.png",
+    "static/media/img-5.png": "/optimumai-research/static/media/img-5.64e374dedfc9b46e049a.png",
+    "static/media/possibility.png": "/optimumai-research/static/media/possibility.c7bde7a31bdb74dd308c.png",
+    "static/media/blog03.png": "/optimumai-research/static/media/blog03.d922323861096f25274f.png",
+    "static/media/blog04.png": "/optimumai-research/static/media/blog04.742c1357e7b6c11078e6.png",
+    "static/media/blog05.png": "/optimumai-research/static/media/blog05.bfaa1c1e3851158e0e1f.png",
+    "static/media/blog02.png": "/optimumai-research/static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/people.png": "/optimumai-research/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/logo.svg": "/optimumai-research/static/media/logo.16efaf42dda438e5346df59725d9e6a6.svg",
+    "index.html": "/optimumai-research/index.html",
+    "main.57bef6f1.css.map": "/optimumai-research/static/css/main.57bef6f1.css.map",
+    "main.c5504dc8.js.map": "/optimumai-research/static/js/main.c5504dc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57bef6f1.css",
+    "static/js/main.c5504dc8.js"
+  ]
+}
