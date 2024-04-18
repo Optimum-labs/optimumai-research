@@ -1,5 +1,6 @@
 import "./footer.css";
 import optimumaiLogo from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => (
   <div className="optimumai__footer section__padding">
@@ -44,12 +45,13 @@ const Footer = () => (
     <div className="optimumai__footer-copyright">
       <p>
         @2023 GPT-3. Made with ❤️ by{" "}
-        <a
-          href="https://ajay-dhangar.github.io/Responsive-portfolio-website.github.io/#home"
+        <Link
+          to="https://ajay-dhangar.github.io/Responsive-portfolio-website.github.io/#home"
           target="_blank"
+          rel="noreferrer"
         >
           Ajay-Dhangar
-        </a>
+        </Link>
       </p>
     </div>
   </div>

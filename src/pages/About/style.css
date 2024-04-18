@@ -1,0 +1,30 @@
+.about {
+  margin-top: 1.5rem;
+}
+
+.about h2 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 80px;
+  letter-spacing: -0.04em;
+}
+
+.about h2::after {
+  display: block;
+  content: "";
+  width: 150px;
+  height: 5px;
+  background-color: var(--color-text);
+  margin: auto;
+  border-radius: 1px 5px;
+}
+
+.about p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--color-text);
+  margin: 1.5rem 1rem;
+}

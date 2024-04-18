@@ -105,10 +105,11 @@
   flex: 1 0 0%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
 }
 
 .optimumai__header-image img {
+  border-radius: 10px;
   width: 567px;
   height: 572px;
 }

@@ -7,7 +7,6 @@ import {Link} from 'react-router-dom';
 const Menu = () => {
   return (
     <>
-      <p><Link to="#">Home</Link></p>
       <p><Link to="#">AI Research</Link></p>
       <p><Link to="#">Products</Link></p>
       <p><Link to="#">Case Studies</Link></p>
@@ -23,7 +22,7 @@ const Navbar = () => {
     <div className='optimumai__navbar'>
       <div className="optimumai__navbar-links">
       <div className="optimumai__navbar-links_logo" style={{color: '#fff', fontSize: '1.5rem'}}>
-        <Link to="#">OptimumAI</Link>
+        <Link to="/">OptimumAI</Link>
       </div>
         <div className="optimumai__navbar-links_container">
           <Menu />
