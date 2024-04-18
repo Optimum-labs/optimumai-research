@@ -15,6 +15,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/optimumai-research/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
       
