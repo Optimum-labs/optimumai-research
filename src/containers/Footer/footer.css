@@ -1,10 +1,6 @@
 .optimumai__footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  background: var(--color-footer);
+  color: var(--color-text);
+  padding: 2rem 4rem;
 }
 
 .optimumai__footer-heading {

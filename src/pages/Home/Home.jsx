@@ -1,4 +1,4 @@
-import { Blog, Possibility, Features, WhatOptimumAi, Header } from '../../containers';
+import { Blog, Possibility, WhatOptimumAi, Header } from '../../containers';
 import { CTA, Brand } from '../../components';
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
       </div>
       <Brand />
       <WhatOptimumAi />
-      <Features />
+      {/* <Features /> */}
       <Possibility />
       <CTA />
       <Blog />

@@ -1,5 +1,5 @@
 import './header.css';
-import people from '../../assets/people.png';
+// import people from '../../assets/people.png';
 import ai from '../../assets/img-5.png';
 
 const Header = () => {
@@ -7,14 +7,13 @@ const Header = () => {
     <div className="optimumai__header section__padding" id="home">
       <div className="optimumai__header-content">
         <h1 className="gradient__text">
-          Let's make your life easier with Optimum AI
+          Research & Build <br />AI Solutions 
         </h1>
         <p>
-          OptimumAI is a AI based platform that can help you with your daily life.     
-          It can help you with soft skills assesment, job interview preparation, mental health, financial planning, and much more.
+        Your personal AI companion for everyday life. From honing your soft skills to acing your next job interview, from maintaining mental wellness to planning your finances, we’ve got you covered. Discover a world of possibilities, and let us help you navigate life’s challenges with ease.
         </p>
 
-        <div className="optimumai__header-content__input">
+        {/* <div className="optimumai__header-content__input">
           <input type="email" placeholder="Your Email Address"/>
           <button type="button">Get Started</button>
         </div>
@@ -22,7 +21,7 @@ const Header = () => {
         <div className="optimumai__header-content__people">
           <img src={people} alt="people"/>
           <p>1,600 people requested access a visit in last 24 hours</p>
-        </div>
+        </div> */}
       </div>
       <div className="optimumai__header-image">
         <img src={ai} alt="ai" />
