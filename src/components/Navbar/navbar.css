@@ -15,12 +15,20 @@
 
 .optimumai__navbar-links_logo {
   margin-right: 2rem;
+  background: linear-gradient(90deg, rgb(151, 255, 6) 0%, #FF4820 25%, #FF4820 50%, rgb(87, 89, 243) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 24px;
+  cursor: pointer;
 }
 
-.optimumai__navbar-links_logo img {
+/* .optimumai__navbar-links_logo img {
   width: 62.56px;
   height: 16.02px;
-}
+} */
 
 .optimumai__navbar-links_container {
   display: flex;
