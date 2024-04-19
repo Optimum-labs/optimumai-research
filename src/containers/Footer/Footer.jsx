@@ -1,7 +1,7 @@
-// import logoWhite from "../../../assets/images/logo/optimum-logo.jpeg";
-// import shape1 from "../../../assets/images/footer/shape-1.svg";
-// import blogFooter1 from "../../../assets/images/blog/blog-footer-01.jpg";
-// import blogFooter2 from "../../../assets/images/blog/blog-footer-02.jpg";
+import logo from "../../assets/optimum-logo.jpeg";
+import shape1 from "../../assets/shape-1.svg";
+import blogFooter1 from "../../assets/blog-footer-01.jpg";
+import blogFooter2 from "../../assets/blog-footer-02.jpg";
 import { Link } from "react-router-dom";
 import "./footer.css";
 
@@ -24,12 +24,11 @@ function Footer() {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-10 w-full">
               <Link to="#" className="mb- inline-block max-w-[160px]">
-                {/* <img
-                  src={logoWhite}
+                <img
+                  src={logo}
                   alt="logo"
                   className="max-w-full rounded"
-                /> */}
-                <img src="" alt="blog" />
+                />
               </Link>
               <p className="mb-8 mt-4 max-w-[280px] text-base text-gray-7">
                 OptimumAI is driven by the belief that humans should be at the
@@ -236,8 +235,7 @@ function Footer() {
               <div className="flex flex-col gap-8">
                 <Link to="#" className="group flex items-center gap-[22px]" onClick={scrollToTop}>
                   <div className="overflow-hidden rounded">
-                    {/* <img src={blogFooter1} alt="blog" /> */}
-                    <img src="" alt="blog" />
+                    <img src={blogFooter1} alt="blog" />
                   </div>
                   <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
                     I think really important to design with...
@@ -245,8 +243,7 @@ function Footer() {
                 </Link>
                 <Link to="#" className="group flex items-center gap-[22px]" onClick={scrollToTop}>
                   <div className="overflow-hidden rounded">
-                    {/* <img src={blogFooter2} alt="blog" /> */}
-                    <img src="" alt="blog" />
+                    <img src={blogFooter2} alt="blog" />
                   </div>
                   <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
                     Recognizing the need is the primary...
@@ -303,14 +300,8 @@ function Footer() {
       </div>
       <div>
         <span className="absolute left-0 top-0 z-[-1]">
-          {/* <img src={shape1} alt="" /> */}
-          <img src="" alt="" />
+          <img src={shape1} alt="" />
         </span>
-
-        <span className="absolute bottom-0 right-0 z-[-1]">
-          <img src="assets/images/footer/shape-3.svg" alt="" />
-        </span>
-
         <span className="absolute right-0 top-0 z-[-1]">
           <svg
             width="102"
