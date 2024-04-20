@@ -1,6 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+:root {
+  --ring-size: 200px;
+  --angle: -360deg;
+}
+
+.optimumai__header--body {
+  color: #20e3a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  overflow: hidden;
+}
+
+
 .optimumai__header {
   display: flex;
   flex-direction: row;
+  position: relative;
+  z-index: 1;
 }
 
 .optimumai__header-content {
@@ -357,4 +376,54 @@
       font-size: 12px;
       line-height: 16px;
   }
+}
+
+.particle {
+  position: absolute;
+  z-index: -1;
+  transform-style: preserve-3d;
+  display: flex;
+}
+
+.particle::after {
+  content: "";
+  width: 8px;
+  position: absolute;
+  height: 8px;
+  background: linear-gradient(90deg, rgb(151, 255, 6) 0%, #FF4820 25%, #FF4820 50%, rgb(87, 89, 243) 100%);
+  border-radius: 100%;
+  opacity: 0.2;
+}
+
+.particle__inner, .particle__inner--2, .particle__inner--3 {
+  position: absolute;
+  z-index: -1;
+  transform-style: preserve-3d;
+  display: flex;
+}
+
+.particle__inner::after {
+  content: "";
+  width: 5px;
+  position: absolute;
+  height: 5px;
+  background: var(--color-text);
+  border-radius: 100%;
+}
+
+.particle__inner--2::after {
+  content: "";
+  width: 5px;
+  position: absolute;
+  height: 5px;
+  background: linear-gradient(90deg, #FF4820 0%, transparent 100%);
+  border-radius: 100%;
+}
+.particle__inner--3::after {
+  content: "";
+  width: 5px;
+  position: absolute;
+  height: 5px;
+  background: yellow;
+  border-radius: 100%;
 }
