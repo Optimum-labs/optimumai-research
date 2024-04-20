@@ -2,7 +2,8 @@
 
 :root {
   --font-family: 'Manrope', sans-serif;
-
+  --ring-size: 200px;
+  --angle: -360deg;
   --gradient-text: linear-gradient(89.97deg, hsl(269, 94%, 69%) 1.84%, hsl(21, 87%, 68%) 102.67%);
   --gradient-bar: linear-gradient(103.22deg, hsl(269, 94%, 69%) -13.86%, hsl(21, 87%, 68%) 99.55%);
   
