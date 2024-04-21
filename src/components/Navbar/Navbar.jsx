@@ -7,10 +7,11 @@ import {Link} from 'react-router-dom';
 const Menu = () => {
   return (
     <>
+      <p><Link to="/about">About</Link></p>
       <p><Link to="#">AI Research</Link></p>
       <p><Link to="#">Products</Link></p>
       <p><Link to="#">Case Studies</Link></p>
-      <p><Link to="#">Community</Link></p>
+      <p><Link to="/community">Community</Link></p>
     </>
   )
 };
