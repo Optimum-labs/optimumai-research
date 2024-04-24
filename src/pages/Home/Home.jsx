@@ -1,9 +1,11 @@
-import { Blog, Possibility, WhatOptimumAi, Header } from '../../containers';
-import { CTA, Brand } from '../../components';
+import { Possibility, WhatOptimumAi, Header } from '../../containers';
+import { Brand } from '../../components';
 
 const Home = () => {
   return (
     <div className='App'>
+      <div className="bg">
+      </div>
       <div className="gradient__bg">
         <Header />
       </div>
@@ -11,8 +13,8 @@ const Home = () => {
       <WhatOptimumAi />
       {/* <Features /> */}
       <Possibility />
-      <CTA />
-      <Blog />
+      {/* <CTA /> */}
+      {/* <Blog /> */}
     </div>
   )
 }

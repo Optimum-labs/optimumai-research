@@ -93,3 +93,32 @@ a {
     margin: 4rem 2rem;
   }  
 }
+
+.App, .community{
+  margin-top: 80px;
+}
+
+.bg {
+  height:100vh;
+  width:100%;
+  /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://media.tenor.com/f0cKyHniahEAAAAd/background-khaoticfuture.gif); */
+
+  /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://media.tenor.com/f0cKyHniahEAAAAd/background-khaoticfuture.gif); */
+
+  /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://static.wixstatic.com/media/ee5cb2_fe1ee8826ef040dea7427864ccb09860~mv2.gif); */
+
+  /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://i.pinimg.com/originals/43/d8/71/43d871c21aebf1933fee45c3fd6c3556.gif); */
+
+  /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://png.pngtree.com/background/20230527/original/pngtree-computer-created-animated-network-of-circles-picture-image_2768656.jpg); */
+
+  /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://tcitransportation.com/wp-content/uploads/The-Impact-of-Artificial-Intelligence-AI-on-Transportation-Logistics-TCI_Transportation.jpg); */
+
+  /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://scitechdaily.com/images/AI-Technology-Creation-Concept.gif); */
+
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://miro.medium.com/v2/resize:fit:1400/1*U4qm92ycN-TQ1_YIyUTblw.gif);
+  background-size:cover;
+  position:fixed;
+  top:0px;
+  opacity:0.4;
+  transform:scale(1);  
+}

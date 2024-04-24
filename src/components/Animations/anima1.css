@@ -6,43 +6,58 @@
 }
 
 .particle {
-    position: absolute;
-    z-index: -1;
-    transform-style: preserve-3d;
-    display: flex;
-  }
-  
-  .particle::after {
-    content: "";
-    width: 8px;
-    position: absolute;
-    height: 8px;
-    background: linear-gradient(90deg, rgb(151, 255, 6) 0%, #FF4820 25%, #FF4820 50%, rgb(87, 89, 243) 100%);
-    border-radius: 100%;
-    opacity: 0.2;
-  }
-  
-  .particle__inner, .particle__inner--2, .particle__inner--3 {
-    position: absolute;
-    z-index: -1;
-    transform-style: preserve-3d;
-    display: flex;
-  }
-  
-  .particle__inner::after, .particle__inner--2::after, .particle__inner--3::after {
-    content: "";
-    width: 5px;
-    position: absolute;
-    height: 5px;
-    border-radius: 100%;
-  }
-  .particle__inner::after {
-    background: var(--color-text);
-  }
-  
-  .particle__inner--2::after {
-    background: linear-gradient(90deg, #FF4820 0%, transparent 100%);
-  }
-  .particle__inner--3::after {
-    background: yellow;
-  }
+  width: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  background:url(https://png.pngtree.com/thumb_back/fh260/background/20201028/pngtree-abstract-technology-background-background-3d-grid-cyber-technology-ai-tech-wire-image_441377.jpg) center;
+  background-size:cover;
+  position:fixed;
+  top:0px;
+  opacity:0.4;
+  transform:scale(1);
+}
+
+.particle::after {
+  content: "";
+  width: 8px;
+  position: absolute;
+  height: 8px;
+  background: linear-gradient(
+    90deg,
+    rgb(151, 255, 6) 0%,
+    #ff4820 25%,
+    #ff4820 50%,
+    rgb(87, 89, 243) 100%
+  );
+  border-radius: 100%;
+  opacity: 0.2;
+}
+
+.particle__inner,
+.particle__inner--2,
+.particle__inner--3 {
+  position: absolute;
+  z-index: -1;
+  transform-style: preserve-3d;
+  display: flex;
+}
+
+.particle__inner::after,
+.particle__inner--2::after,
+.particle__inner--3::after {
+  content: "";
+  width: 5px;
+  position: absolute;
+  height: 5px;
+  border-radius: 100%;
+}
+.particle__inner::after {
+  background: var(--color-text);
+}
+
+.particle__inner--2::after {
+  background: linear-gradient(90deg, #ff4820 0%, transparent 100%);
+}
+.particle__inner--3::after {
+  background: yellow;
+}

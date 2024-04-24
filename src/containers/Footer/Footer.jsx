@@ -16,11 +16,11 @@ function Footer() {
 
   return (
     <footer
-      className="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px] optimumai__footer"
+      className="wow fadeInUp relative z-10 bg-[#090E34] optimumai__footer"
       data-wow-delay=".15s"
     >
       <div className="container">
-        <div className="-mx-4 flex flex-wrap">
+        <div className="-mx-24 flex flex-wrap">
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-10 w-full">
               <Link to="#" className="mb- inline-block max-w-[160px]">

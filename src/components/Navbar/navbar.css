@@ -2,8 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 2rem 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid var(--color-footer);
+  z-index: 1000;  
 }
 
 .optimumai__navbar-links {
