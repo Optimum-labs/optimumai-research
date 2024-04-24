@@ -1,12 +1,12 @@
 .optimumai__footer {
   color: var(--color-text);
-  padding: 2rem 4rem;
+  padding: 2rem 1rem 1rem 1rem;
+  background-image: url("https://ajay-dhangar.github.io/img/use-svg-as-background-image-particle-strokes.svg");
 }
 
 .optimumai__footer-heading {
   width: 100%;
   text-align: center;
-
   margin-bottom: 3rem;
 }
 
@@ -51,7 +51,7 @@
 
 .optimumai__footer-links div {
   width: 250px;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .optimumai__footer-links_logo {
@@ -111,11 +111,23 @@
   color: #fff;
 }
 
+.-mx-24 {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+
+
 @media screen and (max-width: 850px) {
   .optimumai__footer-heading h1 {
       font-size: 44px;
       line-height: 50px;
   }
+
+  .-mx-24 {
+      margin-left: 0;
+      margin-right: 0;
+  }
+
 }
 
 @media screen and (max-width: 550px) {
