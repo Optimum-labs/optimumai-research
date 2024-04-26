@@ -2,13 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 6rem;
+  padding: 1rem 6rem;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  border: 1px solid var(--color-footer);
-  z-index: 1000;  
+  box-shadow: 1px 2px 1px 2px var(--color-footer);
+  z-index: 1000;
+  background-color: hsla(211, 89%, 11%, 0.67);
 }
 
 .optimumai__navbar-links {
