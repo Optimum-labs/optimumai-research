@@ -1,7 +1,31 @@
+footer {
+  margin: 0;
+  padding: 0;
+}
 .optimumai__footer {
   color: var(--color-text);
-  padding: 2rem 1rem 1rem 1rem;
-  background-image: url("https://ajay-dhangar.github.io/img/use-svg-as-background-image-particle-strokes.svg");
+  padding: 2rem 0 0 0;
+  background: url("https://ajay-dhangar.github.io/img/use-svg-as-background-image-particle-strokes.svg");
+  
+}
+
+/* .optimumai__footer .container {
+  background-color: red;
+} */
+
+/* w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12 */
+
+.optimumai__footer .container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.optimumai__footer .container .cards .card {
+  width: auto;
+  padding: 1rem;
 }
 
 .optimumai__footer-heading {
@@ -84,7 +108,6 @@
   line-height: 17px;
   font-family: var(--font-family);
   color: #fff;
-
   margin-bottom: 0.9rem;
 }
 
@@ -111,21 +134,24 @@
   color: #fff;
 }
 
-.-mx-24 {
-  margin-left: -24px;
-  margin-right: -24px;
+.optimumai__footer-shape1 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: -1;
 }
-
+.optimumai__footer-shape2 {
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
 
 @media screen and (max-width: 850px) {
   .optimumai__footer-heading h1 {
       font-size: 44px;
       line-height: 50px;
-  }
-
-  .-mx-24 {
-      margin-left: 0;
-      margin-right: 0;
   }
 
 }

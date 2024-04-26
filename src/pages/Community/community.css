@@ -54,7 +54,9 @@
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 1.3rem;
-  color: hsl(210, 58%, 69%);
+  color: hsl(210, 58%, 69%);  
+  margin-top: 2rem;
+  line-height: 30px;
 }
 
 .text span {
