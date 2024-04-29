@@ -9,7 +9,7 @@ const Menu = () => {
     <>
       <p><Link to="/about">About</Link></p>
       <p><Link to="#">AI Research</Link></p>
-      <p><Link to="#">Products</Link></p>
+      <p><Link to="/products">Products</Link></p>
       <p><Link to="#">Case Studies</Link></p>
       <p><Link to="/community">Community</Link></p>
     </>

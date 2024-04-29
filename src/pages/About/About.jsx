@@ -5,7 +5,6 @@ const About = () => {
   return (
     <>
       <section
-        id="about"
         className="about"
       >
         <div className="about_container">

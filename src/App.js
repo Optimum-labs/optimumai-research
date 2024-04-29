@@ -1,7 +1,7 @@
 import { Footer} from './containers';
 import { Navbar } from './components';
 import { Routes, Route } from 'react-router-dom';
-import { Home, About, Community } from './pages';
+import { Home, About, Community, Products } from './pages';
 import './App.css';
 import './index.css';
 
@@ -16,6 +16,7 @@ const App = () => {
         {/* <Route path="/optimumai-research/" element={<Home />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/community" element={<Community />} />
+        <Route path="/products" element={<Products />} />
       </Routes>  
       <Footer />
     </div>
