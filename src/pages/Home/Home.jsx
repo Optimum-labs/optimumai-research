@@ -3,9 +3,7 @@ import { Brand } from '../../components';
 
 const Home = () => {
   return (
-    <div className='App'>
-      <div className="bg">
-      </div>
+    <div className='App'>      
       <div className="gradient__bg">
         <Header />
       </div>

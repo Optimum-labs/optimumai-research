@@ -115,10 +115,11 @@ a {
 
   /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://scitechdaily.com/images/AI-Technology-Creation-Concept.gif); */
 
-  /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://miro.medium.com/v2/resize:fit:1400/1*U4qm92ycN-TQ1_YIyUTblw.gif); */
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://miro.medium.com/v2/resize:fit:1400/1*U4qm92ycN-TQ1_YIyUTblw.gif);
   background-size:cover;
   position:fixed;
   top:0px;
   opacity:0.4;
-  transform:scale(1);  
+  transform:scale(1); 
+  z-index: -1; 
 }

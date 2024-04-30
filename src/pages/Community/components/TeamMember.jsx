@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
+// , FaEnvelope
+import { FaLinkedin } from 'react-icons/fa';
 import teamMembers from '../../../data/teamMembers';
 
 import styles from "./style.module.css"
@@ -19,12 +20,10 @@ const TeamMemberList = () => {
               <p className={styles.teamName}>{member.name}</p>
               <p className={styles.teamRole}>{member.role}</p>
               <div className={styles.teamSocialLinks}>
-                <a href={member.social.twitter} target="_blank" rel="noopener noreferrer">
-                  <FaTwitter />
-                </a>
-                <a href={member.social.github} target="_blank" rel="noopener noreferrer">
-                  <FaGithub />
-                </a>
+                
+                {/* <a href={member.social.email} target="_blank" rel="noopener noreferrer">
+                  <FaEnvelope />
+                </a> */}
                 <a href={member.social.linkedin} target="_blank" rel="noopener noreferrer">
                   <FaLinkedin />
                 </a>

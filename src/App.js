@@ -11,12 +11,16 @@ const App = () => {
       <div className="gradient__bg">
         <Navbar />
       </div>
+      <div className="bg"></div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="/optimumai-research/" element={<Home />} /> */}
-        <Route path="/about" element={<About />} />
-        <Route path="/community" element={<Community />} />
-        <Route path="/products" element={<Products />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/optimumai-research/" element={<Home />} />
+        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/optimumai-research/about" element={<About />} />
+        {/* <Route path="/community" element={<Community />} /> */}
+        <Route path="/optimumai-research/community" element={<Community />} />
+        {/* <Route path="/products" element={<Products />} /> */}
+        <Route path="/optimumai-research/products" element={<Products />} />
       </Routes>  
       <Footer />
     </div>

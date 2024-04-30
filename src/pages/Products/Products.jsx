@@ -4,6 +4,8 @@ import Img from "../../assets/background.png";
 const Products = () => {
     return (
       <div className="products">
+        <div className="bg">
+      </div>
         <h2 className="title gradient__text text-center mb-12">Products</h2>
         <main>
           <div className="products-container">

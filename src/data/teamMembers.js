@@ -1,11 +1,19 @@
+import TracyGreenwood from './community/tracy-greenwood.jpg';
+import KrishnaKishoreGajjala from './community/krishna-kishore.png';
+// import AnandShende from './community/anand-shende.jpg';
+// import AjayDhangar from './community/ajay-dhangar.jpg';
+// import BasanthKalanoor from './community/basanth-kalanoor.jpg';
+// import MuhammadYahiya from './community/muhammad-yahiya.jpg';
+import PrathimaKadari from './community/prathima-kadari.png';
+
+
 const teamMembers = [
     {
       name: 'Muhammad Yahiya',
       role: 'Founder & CEO',
       imageUrl: 'https://avatars.githubusercontent.com/u/47945063?v=4',
       social: {
-        twitter: 'https://twitter.com/',
-        github: 'https://github.com/muhammadyahiya',
+        email: '',
         linkedin: 'https://www.linkedin.com/in/shaik-muhammad-yahiya/',
       },
     },
@@ -14,8 +22,7 @@ const teamMembers = [
       role: 'CTO & Co-Founder',
       imageUrl: 'https://github.com/basanthsk.png',
       social: {
-        twitter: 'https://twitter.com/',
-        github: 'https://github.com/basanthsk',
+        email: '',
         linkedin: 'https://www.linkedin.com/in/basanthsk/',
       },
     },
@@ -24,8 +31,7 @@ const teamMembers = [
       role: 'Full Stack Engineer',
       imageUrl: 'https://github.com/ajay-dhangar.png',
       social: {
-        twitter: 'https://twitter.com/CodesWithAjay',
-        github: 'https://github.com/Ajay-Dhangar',
+        email: 'mailto:ajaydhangar49@gmail.com',
         linkedin: 'https://www.linkedin.com/in/ajay-dhangar/',
       },
     },
@@ -34,9 +40,35 @@ const teamMembers = [
       role: 'Head of Product',
       imageUrl: 'https://avatars.githubusercontent.com/u/24247490',
       social: {
-        twitter: 'https://twitter.com/',
-        github: 'https://github.com/anandshende',
+        email: '',
         linkedin: 'https://www.linkedin.com/in/anandshende/',
+      },
+    },
+    {
+      name: 'Prathima Kadari',
+      role: 'Head of Community',
+      imageUrl: PrathimaKadari,
+      social: {
+        email: '',
+        linkedin: 'https://www.linkedin.com/in/prathima-kadari/',
+      },
+    },
+    {
+      name: 'Tracy Greenwood',
+      role: 'Product Manager',
+      imageUrl: TracyGreenwood,
+      social: {
+        email: '',
+        linkedin: 'https://www.linkedin.com/in/tracy-greenwood-mba-pmp/',
+      },
+    },
+    {
+      name: 'Krishna Kishore Gajjala',
+      role: 'Product Manager',
+      imageUrl: KrishnaKishoreGajjala,
+      social: {
+        email: '',
+        linkedin: 'https://www.linkedin.com/in/krishna-kishore-gajjala-b254112/',
       },
     },
   ];
