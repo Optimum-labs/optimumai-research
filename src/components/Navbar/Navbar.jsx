@@ -27,7 +27,7 @@ const Navbar = () => {
     <div className='optimumai__navbar'>
       <div className="optimumai__navbar-links">
       <div className="optimumai__navbar-links_logo" style={{color: '#fff', fontSize: '1.5rem'}}>
-        <Link to="/">OptimumAI</Link>
+        <Link to="/optimumai-research/">OptimumAI</Link>
       </div>
         <div className="optimumai__navbar-links_container">
           <Menu />
