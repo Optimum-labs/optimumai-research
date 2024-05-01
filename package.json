@@ -1,7 +1,7 @@
 {
   "name": "optimum-ai",
   "version": "0.1.0",
-  "homepage": "https://optimum-labs.github.io/optimumai-research/",
+  "homepage": "https://optimum-labs.github.io/optimumai-research",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
