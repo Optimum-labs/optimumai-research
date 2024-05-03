@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/optimumai-research/static/css/main.925a84e9.css",
-    "main.js": "/optimumai-research/static/js/main.758805db.js",
-    "static/media/blog01.png": "/optimumai-research/static/media/blog01.cefc0932eae0d33a0342.png",
-    "static/media/img-5.png": "/optimumai-research/static/media/img-5.64e374dedfc9b46e049a.png",
-    "static/media/possibility.png": "/optimumai-research/static/media/possibility.c7bde7a31bdb74dd308c.png",
-    "static/media/blog03.png": "/optimumai-research/static/media/blog03.d922323861096f25274f.png",
-    "static/media/blog04.png": "/optimumai-research/static/media/blog04.742c1357e7b6c11078e6.png",
-    "static/media/blog05.png": "/optimumai-research/static/media/blog05.bfaa1c1e3851158e0e1f.png",
-    "static/media/blog02.png": "/optimumai-research/static/media/blog02.ab0eb367561796e91532.png",
-    "static/media/background.png": "/optimumai-research/static/media/background.4573b02f86e2b67f4d81.png",
-    "static/media/prathima-kadari.png": "/optimumai-research/static/media/prathima-kadari.8ca9a3c3affe6fef7288.png",
-    "static/media/krishna-kishore.png": "/optimumai-research/static/media/krishna-kishore.dec5c5ae61f57ff24545.png",
-    "index.html": "/optimumai-research/index.html",
-    "main.925a84e9.css.map": "/optimumai-research/static/css/main.925a84e9.css.map",
-    "main.758805db.js.map": "/optimumai-research/static/js/main.758805db.js.map"
+    "main.css": "/static/css/main.1fffdf16.css",
+    "main.js": "/static/js/main.90723a1a.js",
+    "static/media/blog01.png": "/static/media/blog01.cefc0932eae0d33a0342.png",
+    "static/media/img-5.png": "/static/media/img-5.64e374dedfc9b46e049a.png",
+    "static/media/possibility.png": "/static/media/possibility.c7bde7a31bdb74dd308c.png",
+    "static/media/blog03.png": "/static/media/blog03.d922323861096f25274f.png",
+    "static/media/blog04.png": "/static/media/blog04.742c1357e7b6c11078e6.png",
+    "static/media/blog05.png": "/static/media/blog05.bfaa1c1e3851158e0e1f.png",
+    "static/media/blog02.png": "/static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/background.png": "/static/media/background.4573b02f86e2b67f4d81.png",
+    "static/media/prathima-kadari.png": "/static/media/prathima-kadari.8ca9a3c3affe6fef7288.png",
+    "static/media/krishna-kishore.png": "/static/media/krishna-kishore.dec5c5ae61f57ff24545.png",
+    "index.html": "/index.html",
+    "main.1fffdf16.css.map": "/static/css/main.1fffdf16.css.map",
+    "main.90723a1a.js.map": "/static/js/main.90723a1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.925a84e9.css",
-    "static/js/main.758805db.js"
+    "static/css/main.1fffdf16.css",
+    "static/js/main.90723a1a.js"
   ]
 }

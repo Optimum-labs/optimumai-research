@@ -1,10 +1,8 @@
 import logo from "../../assets/optimum-logo.jpeg";
-// import shape1 from "../../assets/shape-1.svg";
-// import shape3 from "../../assets/shape-1.svg";
+import { Link } from "react-router-dom";
+import styles from "./style.module.css";
 // import blogFooter1 from "../../assets/blog-footer-01.jpg";
 // import blogFooter2 from "../../assets/blog-footer-02.jpg";
-import { Link } from "react-router-dom";
-import "./footer.css";
 
 function Footer() {
   const scrollToTop = () => {
@@ -13,22 +11,21 @@ function Footer() {
       behavior: "smooth",
     });
   };
-
   return (
-    <footer className="optimumai__footer">
-      <div className="container">
-        <div className="cards">
-          <div className="card">
-            <div className="mb-10 w-full">
-              <Link to="#" className="mb- inline-block max-w-[160px]">
-                <img src={logo} alt="logo" className="max-w-full rounded" />
+    <footer className={styles.optimumai__footer}>
+      <div className={styles.container}>
+        <div className={styles.items}>
+          <div className={styles.item}>
+            <div className={styles.content}>
+              <Link to="#" className={styles.logo__container}>
+                <img src={logo} alt="logo" className={styles.logo} />
               </Link>
-              <p className="mb-8 mt-4 max-w-[280px] text-base text-gray-7">
+              <p className={styles.description}>
                 OptimumAI is driven by the belief that humans should be at the
                 forefront of AI and technology.
               </p>
-              <div className="-mx-3 flex items-center">
-                <Link to="#" className="px-3 text-gray-7 hover:text-white">
+              <div className={styles.socials}>
+                <Link to="#" className={styles.social__link}>
                   <svg
                     width="22"
                     height="22"
@@ -40,7 +37,7 @@ function Footer() {
                     <path d="M16.294 8.86875H14.369H13.6815V8.18125V6.05V5.3625H14.369H15.8128C16.1909 5.3625 16.5003 5.0875 16.5003 4.675V1.03125C16.5003 0.653125 16.2253 0.34375 15.8128 0.34375H13.3034C10.5878 0.34375 8.69714 2.26875 8.69714 5.12187V8.1125V8.8H8.00964H5.67214C5.19089 8.8 4.74402 9.17812 4.74402 9.72812V12.2031C4.74402 12.6844 5.12214 13.1313 5.67214 13.1313H7.94089H8.62839V13.8188V20.7281C8.62839 21.2094 9.00652 21.6562 9.55652 21.6562H12.7878C12.994 21.6562 13.1659 21.5531 13.3034 21.4156C13.4409 21.2781 13.544 21.0375 13.544 20.8312V13.8531V13.1656H14.2659H15.8128C16.2596 13.1656 16.6034 12.8906 16.6721 12.4781V12.4438V12.4094L17.1534 10.0375C17.1878 9.79688 17.1534 9.52187 16.9471 9.24687C16.8784 9.075 16.569 8.90312 16.294 8.86875Z" />
                   </svg>
                 </Link>
-                <Link to="#" className="px-3 text-gray-7 hover:text-white">
+                <Link to="#" className={styles.social__link}>
                   <svg
                     width="22"
                     height="22"
@@ -52,7 +49,7 @@ function Footer() {
                     <path d="M20.1236 5.91236C20.2461 5.76952 20.0863 5.58286 19.905 5.64972C19.5004 5.79896 19.1306 5.8974 18.5837 5.95817C19.2564 5.58362 19.5693 5.04828 19.8237 4.39259C19.885 4.23443 19.7 4.09092 19.5406 4.16647C18.8931 4.47345 18.1945 4.70121 17.4599 4.83578C16.7338 4.11617 15.6988 3.6665 14.5539 3.6665C12.3554 3.6665 10.5725 5.32454 10.5725 7.36908C10.5725 7.65933 10.6081 7.94206 10.6752 8.21276C7.51486 8.06551 4.6968 6.71359 2.73896 4.64056C2.60477 4.49848 2.36128 4.51734 2.27772 4.69063C2.05482 5.15296 1.93056 5.66584 1.93056 6.20582C1.93056 7.49014 2.6332 8.62331 3.70132 9.28732C3.22241 9.27293 2.76441 9.17961 2.34234 9.02125C2.13684 8.94416 1.90127 9.07964 1.92888 9.28686C2.14084 10.8781 3.42915 12.1909 5.09205 12.5011C4.75811 12.586 4.40639 12.6311 4.04253 12.6311C3.95431 12.6311 3.86685 12.6284 3.78019 12.6231C3.55967 12.6094 3.38044 12.8067 3.47499 12.9954C4.09879 14.2404 5.44575 15.1096 7.0132 15.1367C5.65077 16.13 3.93418 16.7218 2.06882 16.7218C1.83882 16.7218 1.74015 17.0175 1.9442 17.1178C3.52016 17.8924 5.31487 18.3332 7.22182 18.3332C14.545 18.3332 18.549 12.6914 18.549 7.79843C18.549 7.63827 18.545 7.47811 18.5377 7.31945C19.1321 6.92012 19.6664 6.44528 20.1236 5.91236Z" />
                   </svg>
                 </Link>
-                <Link to="#" className="px-3 text-gray-7 hover:text-white">
+                <Link to="#" className={styles.social__link}>
                   <svg
                     width="22"
                     height="22"
@@ -69,7 +66,7 @@ function Footer() {
                 <Link
                   to="https://www.linkedin.com/company/optimumai/"
                   target="_blank"
-                  className="px-3 text-gray-7 hover:text-white"
+                  className={styles.social__link}
                 >
                   <svg
                     width="22"
@@ -85,16 +82,14 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="card">
-            <div className="mb-10 w-full">
-              <h4 className="mb-9 text-lg font-semibold text-white">
-                About Us
-              </h4>
+          <div className={styles.item}>
+            <div className={styles.content}>
+              <h4 className={styles.title}>About Us</h4>
               <ul>
                 <li>
                   <Link
                     to="/community"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className={styles.link}
                     onClick={scrollToTop}
                   >
                     Community
@@ -103,7 +98,7 @@ function Footer() {
                 <li>
                   <Link
                     to="/pricing"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className={styles.link}
                     onClick={scrollToTop}
                   >
                     Pricing
@@ -112,7 +107,7 @@ function Footer() {
                 <li>
                   <Link
                     to="/team"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className={styles.link}
                     onClick={scrollToTop}
                   >
                     Team
@@ -121,7 +116,7 @@ function Footer() {
                 <li>
                   <Link
                     to="/contact"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className={styles.link}
                     onClick={scrollToTop}
                   >
                     Contact
@@ -130,25 +125,19 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="card">
-            <div className="mb-10 w-full">
-              <h4 className="mb-9 text-lg font-semibold text-white">
-                Terms & Conditions
-              </h4>
+          <div className={styles.item}>
+            <div className={styles.content}>
+              <h4 className={styles.title}>Terms & Conditions</h4>
               <ul>
                 <li>
-                  <Link
-                    to="#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    onClick={scrollToTop}
-                  >
+                  <Link to="#" className={styles.link} onClick={scrollToTop}>
                     How it works
                   </Link>
                 </li>
                 <li>
                   <Link
                     to="/privacy-policy"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className={styles.link}
                     onClick={scrollToTop}
                   >
                     Privacy policy
@@ -157,96 +146,74 @@ function Footer() {
                 <li>
                   <Link
                     to="/terms-of-services"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className={styles.link}
                     onClick={scrollToTop}
                   >
                     Terms of Service
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    onClick={scrollToTop}
-                  >
+                  <Link to="#" className={styles.link} onClick={scrollToTop}>
                     Refund policy
                   </Link>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="card">
-            <div className="mb-10 w-full">
-              <h4 className="mb-9 text-lg font-semibold text-white">
-                Our Products
-              </h4>
+          <div className={styles.item}>
+            <div className={styles.content}>
+              <h4 className={styles.title}>Our Products</h4>
               <ul>
                 <li>
-                  <Link
-                    to="#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    onClick={scrollToTop}
-                  >
+                  <Link to="#" className={styles.link} onClick={scrollToTop}>
                     Soft Skills Assessment
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    onClick={scrollToTop}
-                  >
+                  <Link to="#" className={styles.link} onClick={scrollToTop}>
                     Interview Preparetion
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    onClick={scrollToTop}
-                  >
+                  <Link to="#" className={styles.link} onClick={scrollToTop}>
                     Mental Health Assessment
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    onClick={scrollToTop}
-                  >
+                  <Link to="#" className={styles.link} onClick={scrollToTop}>
                     Financial Management
                   </Link>
                 </li>
               </ul>
             </div>
           </div>
-          {/* <div className="card">
-            <div className="mb-10 w-full">
-              <h4 className="mb-9 text-lg font-semibold text-white">
+          {/* <div className={styles.item}>
+            <div className={styles.content}>
+              <h4 className={styles.title}>
                 Latest blog
               </h4>
-              <div className="flex flex-col gap-8">
+              <div className={styles.blog__footer}>
                 <Link
                   to="#"
-                  className="group flex items-center gap-[22px]"
+                  className={styles.blog__footer__link}
                   onClick={scrollToTop}
                 >
-                  <div className="overflow-hidden rounded">
+                  <div className={styles.image__container}>
                     <img src={blogFooter1} alt="blog" />
                   </div>
-                  <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
+                  <span className={styles.blog__footer__text}>
                     I think really important to design with...
                   </span>
                 </Link>
                 <Link
                   to="#"
-                  className="group flex items-center gap-[22px]"
+                  className={styles.blog__footer__link}
                   onClick={scrollToTop}
                 >
-                  <div className="overflow-hidden rounded">
+                  <div className={styles.image__container}>
                     <img src={blogFooter2} alt="blog" />
                   </div>
-                  <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
+                  <span className={styles.blog__footer__text}>
                     Recognizing the need is the primary...
                   </span>
                 </Link>
@@ -256,40 +223,31 @@ function Footer() {
         </div>
       </div>
 
-      <div className="mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]">
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-2/3 lg:w-1/2">
-              <div className="my-1">
-                <div className="-mx-3 flex items-center justify-center md:justify-start">
-                  <Link
-                    to="#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
+      <div className={styles.footer__bottom}>
+        <div className={styles.container}>
+          <div className={styles.footer__bottom__items}>
+            <div className={styles.footer__bottom__item}>
+              <div className={styles.footer__bottom__content}>
+                <div className={styles.footer__bottom__items__container}>
+                  <Link to="#" className={styles.footer__bottom__link}>
                     Privacy policy
                   </Link>
-                  <Link
-                    to="#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
+                  <Link to="#" className={styles.footer__bottom__link}>
                     Legal notice
                   </Link>
-                  <Link
-                    to="#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
+                  <Link to="#" className={styles.footer__bottom__link}>
                     Terms of service
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 md:w-1/3 lg:w-1/2">
-              <div className="my-1 flex justify-center md:justify-end">
-                <p className="text-base text-gray-7">
+            <div className={styles.footer__bottom__item}>
+              <div className={styles.footer__bottom__content}>
+                <p className={styles.footer__bottom__text}>
                   Designed and Developed by &nbsp;
                   <Link
                     to="https://github.com/Optimum-labs"
-                    className="text-gray-1 ml-1 hover:underline"
+                    className={styles.footer__bottom__link}
                   >
                     OptimumAI Labs
                   </Link>
@@ -298,7 +256,7 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>      
+      </div>
     </footer>
   );
 }
