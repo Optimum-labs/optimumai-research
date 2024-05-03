@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+// import styles from "./style.module.css";
 const HeaderSection = () => {
   const [typingText, setTypingText] = useState('');
   const [textIndex, setTextIndex] = useState(0);

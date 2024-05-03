@@ -1,17 +1,14 @@
 .community {
-  padding: 1rem;
+  margin: 100px 0;
 }
 
-.community-section {
-  text-align: center;
+.community-container {
+  margin: 20px 80px;
 }
-
 .container {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 @media (min-width: 768px) {
