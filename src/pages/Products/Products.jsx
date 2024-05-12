@@ -12,10 +12,10 @@ const Products = () => {
                 <img src={Img} alt="product" />
                 <div className="product-content">
                   <p className="product-title">
-                    Product - 1
+                    Interview Chatbot 
                   </p>
                   <p className="product-desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ad dolore veniam repudiandae.
+                    Coming soon.
                   </p>
                 </div>
               </div>
@@ -23,10 +23,10 @@ const Products = () => {
                 <img src={Img} alt="product" />
                 <div className="product-content">
                   <p className="product-title">
-                    Product - 1
+                  Mental Health Assessment Tools
                   </p>
                   <p className="product-desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ad dolore veniam repudiandae.
+                    Coming soon.
                   </p>
                 </div>
               </div>
@@ -34,10 +34,10 @@ const Products = () => {
                 <img src={Img} alt="product" />
                 <div className="product-content">
                   <p className="product-title">
-                    Product - 1
+                  Financial Planning Tools
                   </p>
                   <p className="product-desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ad dolore veniam repudiandae.
+                    Coming soon.
                   </p>
                 </div>
               </div>
